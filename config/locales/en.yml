@@ -34,9 +34,12 @@ en:
   static_pages:
     home:
       title: "Home"
-      sample_app: "Sample App"
+      sample_app: "Welcome to the Sample App"
       sample_application: "sample application."
       home_page: "This is the home page for the"
+      sign_up: "Sign up now!"
+      rails_logo: "Rails logo"
+      tutorial_rails: "Ruby on Rails Tutorial"
     about:
       title: "About"
       the: "The"
@@ -46,9 +49,28 @@ en:
       screencast_series: "screencast series"
       teach_web: "to teach web development with"
       sample_application: "This is the sample application for the tutorial."
+      tutorial_rails: "Ruby on Rails Tutorial"
+      ruby_on_rails: "Ruby on Rails"
     help:
       title: "Help"
       help: "Get help on the Ruby on Rails Tutorial at the"
       get_help: "To get help on this sample app, see the"
+      tutorial_section: "Rails Tutorial help section"
+      tutorial_rails: "Ruby on Rails Tutorial"
+      book: "book"
+    contact:
+      title: "Contact"
+      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
   application:
     tutorial: "Ruby on Rails Tutorial Sample App"
+    sample_app: "sample app"
+    home: "Home"
+    help: "Help"
+    log_in: "Log in"
+    about: "About"
+    contact: "Contact"
+    the: "The"
+    tutorial_rails: "Ruby on Rails Tutorial"
+    by: "by"
+    news: "News"
