@@ -62,6 +62,10 @@ en:
       title: "Contact"
       contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      signup_page: "This will be a signup page for new users."
   application:
     tutorial: "Ruby on Rails Tutorial Sample App"
     sample_app: "sample app"
