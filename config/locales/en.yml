@@ -9,6 +9,7 @@ en:
       sign_up: "Sign up now!"
       rails_logo: "Rails logo"
       tutorial_rails: "Ruby on Rails Tutorial"
+      micropost_feed: "Micropost Feed"
     about:
       title: "About"
       the: "The"
@@ -42,6 +43,10 @@ en:
     show:
       warning: "Not found user"
       you_sure: "You sure?"
+      microposts: "Microposts"
+      delete: "delete"
+      posted: "Posted"
+      ago: "ago"
     edit:
       edit_user: "Edit user"
       update_profile: "Update your profile"
@@ -90,6 +95,13 @@ en:
       reset_success: "Password has been reset."
     check_expiration:
       password_reset_expired: "Password reset has expired."
+  microposts:
+    create:
+      micropost_created: "Micropost created!"
+    error:
+      picture_size: "should be less than 5MB"
+    destroy:
+      micropost_delete: "Micropost deleted"
   application:
     tutorial: "Ruby on Rails Tutorial Sample App"
     sample_app: "sample app"
@@ -110,6 +122,10 @@ en:
   shared:
     error: "error"
     form_constain: "The form contains"
+    compose_new_micropost: "Compose new micropost..."
+    post: "Post"
+    view_my_profile: "view my profile"
+    micropost: "micropost"
   account_activation:
     sample_app: "Sample App"
     welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
