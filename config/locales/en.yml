@@ -71,14 +71,25 @@ en:
       success: "Welcome to the Sample App!"
     show:
       warning: "Not found user"
+  sessions:
+    new:
+      log_in: "Log in"
+      sign_up: "Sign up now!"
+    create:
+      danger: "Invalid email/password combination"
   application:
     tutorial: "Ruby on Rails Tutorial Sample App"
     sample_app: "sample app"
     home: "Home"
     help: "Help"
     log_in: "Log in"
+    log_out: "Log out"
     about: "About"
     contact: "Contact"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    account: "Account"
     the: "The"
     tutorial_rails: "Ruby on Rails Tutorial"
     by: "by"
