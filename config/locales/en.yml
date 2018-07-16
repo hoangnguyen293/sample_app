@@ -38,6 +38,7 @@ en:
       create_accout: "Create my account"
     create:
       success: "Welcome to the Sample App!"
+      check_your_mail: "Please check your email to activate your account."
     show:
       warning: "Not found user"
       you_sure: "You sure?"
@@ -53,6 +54,8 @@ en:
     destroy:
       deleted_user: "User deleted"
       delete_user_err: "Error"
+    logged_in_user:
+      please_log_in: "Please log in."
       warning: "Not found user"
     logged_in_user:
       please_log_in: "Please log in."
@@ -66,6 +69,11 @@ en:
       remember_me: "Remember me on this computer"
     create:
       danger: "Invalid email/password combination"
+      account_not_activated: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
   application:
     tutorial: "Ruby on Rails Tutorial Sample App"
     sample_app: "sample app"
@@ -86,3 +94,7 @@ en:
   shared:
     error: "error"
     form_constain: "The form contains"
+  account_activation:
+    sample_app: "Sample App"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
