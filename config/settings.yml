@@ -1,3 +1,8 @@
 users_per_page: 20
+posts_per_page: 20
 gravatar_size: 80
 expired_time: 2
+gravatar_size_of_post: 50
+gravatar_size_of_follow: 30
+picture_size: 5
+
