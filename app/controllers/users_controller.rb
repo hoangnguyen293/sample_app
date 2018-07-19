@@ -1,9 +1,8 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, except: %i(show new create)
-
   before_action :correct_user, only: %i(edit update)
-
   before_action :admin_user, only: :destroy
+  before_action :get_user, only: %i(following followers)
 
   def index
     @users = User.paginate(page: params[:page],
@@ -58,7 +57,26 @@ class UsersController < ApplicationController
     redirect_to users_path
   end
 
+  def following
+    @title = t ".follow"
+    @users = @user.following.paginate(page: params[:page])
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".follower"
+    @users = @user.followers.paginate(page: params[:page])
+    render :show_follow
+  end
+
   private
+
+  def get_user
+    @user  = User.find(params[:id])
+    rescue ActiveRecord::RecordNotFound
+    flash[:warning] = t "users.warning"
+    redirect_to root_path
+  end
 
   def user_params
     params.require(:user).permit(:name, :email, :password,

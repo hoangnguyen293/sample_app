@@ -47,6 +47,8 @@ en:
       delete: "delete"
       posted: "Posted"
       ago: "ago"
+      follow: "Follow"
+      unfollow: "Unfollow"
     edit:
       edit_user: "Edit user"
       update_profile: "Update your profile"
@@ -59,6 +61,10 @@ en:
     destroy:
       deleted_user: "User deleted"
       delete_user_err: "Error"
+    following:
+      follow: "Following"
+    followers:
+      follower: "Followers"
     logged_in_user:
       please_log_in: "Please log in."
       warning: "Not found user"
@@ -126,6 +132,9 @@ en:
     post: "Post"
     view_my_profile: "view my profile"
     micropost: "micropost"
+    following: "following"
+    follower: "followers"
+    micro_post: "Microposts:"
   account_activation:
     sample_app: "Sample App"
     welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
